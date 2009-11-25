@@ -1,0 +1,11 @@
+<DmxLib Version="1.0">
+	<FixtureDefinitions>
+		<FixtureDefinition Name="Colorsplash JR" NumChannels='5' Type="RGB" Manufacturer="Chauvet">
+     		<ChannelDefinition Name="Dimmer" Type="Dimmer" ChannelOffset="0"/>
+			<ChannelDefinition Name="Red" Type="LedRed" ChannelOffset="1"/>
+			<ChannelDefinition Name="Green" Type="LedGreen" ChannelOffset="2"/>
+			<ChannelDefinition Name="Blue" Type="LedBlue" ChannelOffset="3"/>
+ 			<ChannelDefinition Name="Nil" Type="Nil" ChannelOffset="4"/>
+		</FixtureDefinition>
+	</FixtureDefinitions>
+</DmxLib>

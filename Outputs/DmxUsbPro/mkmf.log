@@ -1,0 +1,34 @@
+have_header: checking for FTD2XX.h... -------------------- yes
+
+"cl -nologo -E -I. -IC:/Ruby/lib/ruby/1.8/i386-mswin32 -I. -I./include  -MD -Zi -O2b2xg- -G6  conftest.c -P"
+cl : Command line warning D9035 : option 'Og-' has been deprecated and will be removed in a future release
+cl : Command line warning D9002 : ignoring unknown option '-G6'
+conftest.c
+checked program was:
+/* begin */
+1: #include <FTD2XX.h>
+/* end */
+
+--------------------
+
+have_library: checking for FT_Open() in FTD2XX.lib... -------------------- yes
+
+"cl -nologo -Feconftest -I. -IC:/Ruby/lib/ruby/1.8/i386-mswin32 -I. -IC:/Ruby/lib/ruby/1.8/i386-mswin32 -I./include  -MD -Zi -O2b2xg- -G6 conftest.c   msvcrt-ruby18-static.lib FTD2XX.lib  oldnames.lib user32.lib advapi32.lib shell32.lib ws2_32.lib   -link    -libpath:"." -libpath:"C:/Ruby/lib" -libpath:"./lib" -stack:0x2000000"
+cl : Command line warning D9035 : option 'Og-' has been deprecated and will be removed in a future release
+cl : Command line warning D9002 : ignoring unknown option '-G6'
+conftest.c
+checked program was:
+/* begin */
+1: #define WIN32_LEAN_AND_MEAN
+2: #define WIN32
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <FTD2XX.h>
+6: 
+7: /*top*/
+8: int main() { return 0; }
+9: int t() { void ((*volatile p)()); p = (void ((*)()))FT_Open; return 0; }
+/* end */
+
+--------------------
+

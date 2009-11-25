@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DmxLib Version="1.0">
+	<Fixtures>
+		<Fixture Name="Test1" UniverseName="Main" BaseChannel="1" Type='Colorsplash JR'/>
+		<Fixture Name="Test2" UniverseName="Main" BaseChannel="77" Type='Colorsplash JR'/>
+		<Fixture Name="Test3" UniverseName="Main" BaseChannel="87" Type='Colorsplash JR'/>
+		<Fixture Name="Test4" UniverseName="Main" BaseChannel="97" Type='Colorsplash JR'/>
+	</Fixtures>	
+</DmxLib>
