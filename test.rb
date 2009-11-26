@@ -1,4 +1,5 @@
 if __FILE__ == $0
+  
   require 'DmxManager.rb'
   require 'DmxUsbPro'
   require "ruby-debug"
